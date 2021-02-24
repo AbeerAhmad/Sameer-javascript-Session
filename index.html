@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
-    
-    
+    <button id="button1" onclick="asd()">asd</button>
+    <input id="input1" type="text">
+    <p id="lar" class="para1">
+        asasdasdasd
+    </p>
     <script src="index.js"></script>
+    <script>
+        let a = document.getElementById('lar')
+        document.getElementById('input1').value = 'abeer'
+        let b = [1, 2, 3, 4]
+        b.map((item, i) => {
+
+            a.innerHTML = `<p>${item}</p>`
+
+        })
+        function asd() {
+            document.getElementById('button1').className = 'hide'
+            console.log('button disappers')
+        }
+        // localStorage.setItem('name', 'abeer')
+        console.log(localStorage.getItem('name'))
+    </script>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
 </body>
+
 </html>

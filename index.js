@@ -41,17 +41,17 @@
 //     console.log('condition is false')
 // }
 
-var arr = [
-    'abeer'
-]
+// var arr = [
+//     'abeer'
+// ]
 
-arr.push('alison', 'asdasd')
+// arr.push('alison', 'asdasd')
 // remo0ve the values from start
 // arr.shift()
 // remo0ve the values from end
 // arr.pop()
 // arr.unshift('anderson', 'jacob')
-arr = [...arr, 'anderson', 'jacob',]
+// arr = [...arr, 'anderson', 'jacob',]
 // arr
 // arr.splice(1,0,'ahsan')
 // let narr = arr.slice(1, arr.length)
@@ -67,7 +67,7 @@ arr = [...arr, 'anderson', 'jacob',]
 
 
 
-let text = 'we had a World War II in 1912 World War II';
+// let text = 'we had a World War II in 1912 World War II';
 // console.log(text)
 // for (var i = 0; i < text.length; i++) {
 //     if (text.slice(i, i + 12) === "World War II") {
@@ -80,7 +80,44 @@ let text = 'we had a World War II in 1912 World War II';
 // console.log(text)
 
 // let index = text.indexOf('z')
-text = text.replace(/World War II/g, 'the second world war')
+// text = text.replace(/World War II/g, 'the second world war')
 
 
-console.log(text)
+// console.log(text)
+
+
+// let a = prompt('Enter a integer')
+// console.log(typeof (a))
+// let b = Number(a)
+// console.log(typeof (b))
+// let c = b.toString()
+// console.log(typeof (c))
+// console.log(b)
+
+
+// let date = new Date()
+// console.log(date)
+// console.log(typeof (date))
+// let dateinstring = date.toString()
+// console.log(dateinstring)
+// let mydate = "June 30, 2035"
+// let mydoomdate = new Date(mydate)
+
+// console.log(mydoomdate)
+
+// date.setFullYear(2006)
+// date.setMonth(6)
+// console.log(date)
+
+function execute(a) {
+    Object.keys(a).map(function (item, i) {
+        // console.log(item)
+console.log(a[item])
+    })
+    return 'okay'
+}
+let obj = { name: 'abeer', age: 22 }
+console.log(execute(obj))
+
+// console.log(obj.name)
+
